@@ -1,3 +1,5 @@
+import UserModel from "./Models/UserModel";
+
 export default function HomePage() {
-  return <div>Home page</div>;
+  return <div><UserModel/></div>;
 }
